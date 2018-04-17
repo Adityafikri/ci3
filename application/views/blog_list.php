@@ -36,7 +36,9 @@
 						<h6 class="text-muted"><?php echo $value['date'] ?></h6> 
 						<?php echo $value['content'] ?> 
 						<br> 
-						<a href="<?php echo base_url('index.php/Blog/byId/'.$value['id']) ?>">View Details</a> 
+						<a href="<?php echo base_url('index.php/Blog/byId/'.$value['id']) ?>">View Details</a>
+						<a class="btn btn-sm btn-success" href="<?php echo base_url('index.php/Blog/update_view/'.$value['id']) ?>">Update	</a>
+						<a class="btn btn-sm btn-danger" href="<?php echo base_url('index.php/Blog/delete_action/'.$value['id']) ?>">Delete	</a>  
 					</div> 
 				</li> 
 			<?php endforeach ?> 
