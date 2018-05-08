@@ -101,4 +101,3 @@ class Blog extends CI_Controller {
 		redirect('Blog');
 	}
 }  
-
